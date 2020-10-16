@@ -1,0 +1,83 @@
+div#content{
+    background-color: black;
+}
+
+div#content div{
+    display: inline-block;
+    width: 48%;
+}
+
+div#content div h1, p, iframe{
+    margin: 35;
+}
+
+div#content div.leftbox{
+    vertical-align: top;
+    background-color: yellowgreen;
+}
+
+div#content div.rightbox{
+    background-color: green;
+}
+
+
+div#content div.annonce{
+    background-color: purple;
+    width: 100%;
+    margin: 8px;
+}
+
+nav.menu-nav ul li.btn{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav.menu-nav ul li.btn a{
+    color: #ffffff;
+    background-color:red;
+    text-decoration: none;
+    padding: 10px;
+}
+
+    nav.menu-nav ul li.btn:hover a{
+    color: black;
+    background-color: red;
+    transition: 0.4s all;
+}
+
+div.annonce img{
+    border-radius: 5%;
+}
+
+header{
+    background-color: black;
+}
+
+footer{
+    font-size: 20px;
+}
+
+/* p.Bienvenue{
+    color: black;  
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 350px;
+}
+
+p.JAMAIS_PUBLIER{
+    color: black;   
+     padding-left: 350px;
+}
+
+body{
+    background-color: #777777;
+}
+
+h1.En_cours_de_dev{
+    font-size: 50px;
+    padding-left: 345px;
+}
+a{
+    color: red;
+    opacity: 0;
+}  */ 
